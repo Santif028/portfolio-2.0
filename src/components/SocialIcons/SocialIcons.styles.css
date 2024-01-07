@@ -1,0 +1,22 @@
+.socialDiv {
+    z-index: 2;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: yellow;
+    border-radius: 20px;
+}
+.iconButton {
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.iconButton:hover{
+    background-color: orange;
+}

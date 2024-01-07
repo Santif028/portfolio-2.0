@@ -1,0 +1,149 @@
+.aboutMain {
+    background: #011126;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-bottom: 1px solid #04C4D9;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutH1 {
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+}
+
+.divider {
+    width: 31.25rem;
+    border-bottom: 1px solid #04C4D9;
+}
+
+.p {
+    margin: 20px;
+    font-size: 1.4rem;
+    max-width: 31.25rem;
+}
+
+.image {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.a {
+    margin-top: 20px;
+    display: block;
+    padding: 1rem 2rem;
+    border-radius: 2.5px;
+    border: solid 1px #04C4D9;
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, #04C4D9 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .4s ease-out;
+}
+
+.a:hover {
+    background-position: left bottom;
+    color: black;
+    transform: scale(1.1);
+}
+
+
+.subtitle {
+    margin: 20px;
+    font-style: italic;
+    text-align: center;
+    font-size: larger;
+}
+
+.slider {
+    width: 31.25rem;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, #011126 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider .sliderTrack {
+    animation: scroll 30s infinite linear;
+    display: flex;
+    gap: 40px;
+    width: calc(48px * 22);
+}
+
+.slider .sliderTrack:hover {
+    animation-play-state: paused;
+}
+
+.slider .slide {
+    height: 48px;
+    width: 48px;
+
+}
+
+.anchor {
+    height: 48px;
+    display: flex;
+    align-self: center;
+    perspective: 100px;
+}
+
+.skillIcon {
+    width: 48px;
+    transition: transform 1s;
+}
+
+.darkIcon {
+    filter: invert(1);
+    width: 48px;
+    transition: transform 1s;
+}
+
+.skillIcon:hover,
+.darkIcon:hover {
+    transform: translateZ(20px);
+}
+
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
