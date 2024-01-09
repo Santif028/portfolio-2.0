@@ -17,27 +17,21 @@
 
 .aboutH1 {
     font-size: 2.6rem;
-    margin-bottom: 10px;
-}
-
-.divider {
-    width: 31.25rem;
-    border-bottom: 1px solid #04C4D9;
+    margin: 0;
 }
 
 .p {
-    margin: 20px;
+    border-bottom: 1px solid #04C4D9;
+    border-top: 1px solid #04C4D9;
+    padding: 20px 0px;
     font-size: 1.4rem;
-    max-width: 31.25rem;
 }
 
 .image {
-    width: 400px;
     border-radius: 5px;
 }
 
 .a {
-    margin-top: 20px;
     display: block;
     padding: 1rem 2rem;
     border-radius: 2.5px;
@@ -66,7 +60,6 @@
 }
 
 .slider {
-    width: 31.25rem;
     position: relative;
     overflow: hidden;
     align-items: center;

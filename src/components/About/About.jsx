@@ -25,17 +25,14 @@ const AboutComponent = () => {
                 <title>Santiago Ferreira - Acerca de Mí</title>
             </Helmet>
             <section className='aboutMain h-auto lg:h-screen'>
-                <section className='content'>
-                    <h1 className='aboutH1'>{t('about')}</h1>
-                    <div className='divider'></div>
+                <section className='content max-w-sm md:max-w-lg'>
+                    <h1 className='aboutH1 text-xl sm:text-2xl md:text-3xl lg:text-4xl'>{t('about')}</h1>
                     <p className='p'>{t('aboutDescription')}</p>
-                    <div className='divider'></div>
                     <a href={pdf} target="_blank" rel="noreferrer" className='a'>
                         {t('downloadCV')}
                     </a>
                     <h2 className='subtitle'>{t('skillsDescription')}:</h2>
-                    <section className='slider'>
-
+                    <section className='slider max-w-sm md:max-w-lg'>
 
                         <div className='sliderTrack'>
                             <div className='slide' >
@@ -152,7 +149,7 @@ const AboutComponent = () => {
                     </section>
                 </section>
                 <aside className='imageSection'>
-                    <img src={image} alt="Mi Foto" className='image' />
+                    <img src={image} alt="Mi Foto" className='image max-w-sm  md:w-96' />
                 </aside>
             </section>
         </>

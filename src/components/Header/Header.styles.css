@@ -11,14 +11,12 @@
 }
 
 .headerH1 {
-    font-size: 4.5rem;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
 .span {
-    font-size: 6rem;
     color: yellow;
     text-shadow: 2px 2px 4px red;
 }
@@ -29,7 +27,6 @@
     padding: 1rem 2rem;
     border-radius: 2.5px;
     border: solid 1px #04C4D9;
-    font-size: 1.125rem;
     text-decoration: none;
     color: white;
     background: linear-gradient(to right, #04C4D9 50%, transparent 50%);

@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useTranslation } from 'react-i18next';
 import "./Navbar.styles.css"
 import toggler from "../../images/menu.png";
+import { Link } from "react-scroll";
 
 const DropdownMenu = ({ toggleLanguage, renderFlagIcon }) => {
   const { t } = useTranslation();
@@ -15,34 +16,34 @@ const DropdownMenu = ({ toggleLanguage, renderFlagIcon }) => {
   return (
     <div className="navbarMobile">
       <div className="buttons">
-        <button className="lngButton" onClick={toggleLanguage}>
+        <button className="lngButtonMobile" onClick={toggleLanguage}>
           {renderFlagIcon()}
         </button>
         <button onClick={toggleMenu} className="buttonIcon">
-          <img src={toggler} alt="toggler" className="menuIcon"/>
+          <img src={toggler} alt="toggler" className="menuIcon" />
         </button>
       </div>
       {isMenuOpen && (
         <ul className="navListMobile">
           <li className="navItem">
-            <a href="/" className="navLink">
+            <Link to="header" className="navLink" smooth={true} duration={600}>
               {t('home')}
-            </a>
+            </Link>
           </li>
           <li className="navItem">
-            <a href="/about" className="navLink">
+            <Link to="about" className="navLink" smooth={true} duration={600}>
               {t('about')}
-            </a>
+            </Link>
           </li>
           <li className="navItem">
-            <a href="/projects" className="navLink">
+            <Link to="projects" className="navLink" smooth={true} duration={600}>
               {t('projects')}
-            </a>
+            </Link>
           </li>
           <li className="navItem">
-            <a href="/contact" className="navLink">
+            <Link to="contact" className="navLink" smooth={true} duration={600}>
               {t('contact')}
-            </a>
+            </Link>
           </li>
         </ul>
       )}

@@ -22,22 +22,6 @@
     gap: 20px;
 }
 
-.navbarMobile {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    padding-right: 20px;
-}
-
-.navListMobile {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
 
 .navItem {
     padding: 10px 0;
@@ -54,12 +38,11 @@
     text-shadow: 1px 1px 2px red;
 }
 
-.buttons {
-    display: flex;
-    align-items: center;
-}
+
 
 .lngButton {
+    padding: 0;
+    margin: 0;
     background-color: transparent;
     border: none;
     display: flex;
@@ -72,13 +55,58 @@
     height: 22px;
 }
 
+/* MOBILE */
+
+.navbarMobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.navListMobile {
+    width: 96px;
+    background-color: black;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 12px;
+}
+
+.buttons {
+    background-color: black;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+}
+
 .buttonIcon {
+    margin: 0;
+    padding: 0;
     display: flex;
     filter: invert(1);
     border: none;
-    background-color: white;
+    background-color: transparent;
 }
 
 .menuIcon {
-    width: 42px;
+    width: 54px;
+}
+
+.lngButtonMobile {
+    padding: 0;
+    margin: 0;
+    width: 54px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
 }
