@@ -33,6 +33,7 @@ i18n.init({
           'Space Invaders based game': 'Segundo proyecto final que terminé para el curso de desarrollo Full-Stack de Coderhouse a finales de septiembre 2022. Este proyecto es una interpretación mía de Space Invaders echa en Javascript puro, donde utilizo manipulación de DOM, clases, operadores lógicos, ciclos for, y también particlesJS para lograr el fondo.',
           'React.js Ecommerce': 'Tercer proyecto final que terminé para el curso de desarrollo Full-Stack de Coderhouse a finales de noviembre 2022. Frontend diseñado en React.js para un ecommerce, con base de datos montada en Firebase, utilice Sweet Alert 2 y Material UI para llegar al resultado final.',
           'Express.js Ecommerce Backend': 'Último proyecto final que terminé para el curso de desarrollo Full-Stack de Coderhouse en agosto 2023. API Rest realizada para un ECommerce con Express.js, donde hago uso de Passport, Mongoose, Handlebars para el server side rendering, Bcrypt, Faker, Stripe para la pasarela de pago y Swagger para documentar mi API.',
+          'Todo Next Crud Typescript': 'Proyecto independiente realizado en octubre 2023, donde utilice Next.js 13 y Typescript. Opte por tailwind para diseñar los estilos del proyecto y prisma ORM con SQLite para manejar la base de datos, donde tengo mi logica de CRUD.'
         },
         formName: 'Nombre',
         formEmail: 'Correo electrónico',
@@ -69,7 +70,8 @@ i18n.init({
           "Nocaut": "First final project I completed for the Coderhouse Full-Stack development course in late June 2022. It is a website with 5 HTML pages, a contact form, where I used SASS to compile my CSS and Bootstrap to achieve the navbar. Also considered my first project.",
           "Space Invaders based game": "Second final project I completed for the Coderhouse Full-Stack development course in late September 2022. This project is my interpretation of Space Invaders made in pure Javascript, where I use DOM manipulation, classes, logical operators, FOR loops, and also particlesJS to achieve the background.",
           "React.js Ecommerce": "Third final project I completed for the Coderhouse Full-Stack development course in late November 2022. Frontend designed in React.js for an ecommerce, with a database hosted on Firebase, I used Sweet Alert 2 and Material UI to achieve the final result.",
-          "Express.js Ecommerce Backend": "Last final project I completed for the Coderhouse Full-Stack development course in August 2023. Rest API made for an ECommerce with Express.js, where I use Passport, Mongoose, Handlebars for server-side rendering, Bcrypt, Faker, Stripe for payment gateway, and Swagger to document my API."
+          "Express.js Ecommerce Backend": "Last final project I completed for the Coderhouse Full-Stack development course in August 2023. Rest API made for an ECommerce with Express.js, where I use Passport, Mongoose, Handlebars for server-side rendering, Bcrypt, Faker, Stripe for payment gateway, and Swagger to document my API.",
+          'Todo Next Crud Typescript': 'Independent project carried out in October 2023, where I used Next.js 13 and Typescript. I opted for Tailwind to design the project styles and Prisma ORM with SQLite to handle the database, where I have my CRUD logic.'
         },
         formName: 'Name',
         formEmail: 'E-Mail',

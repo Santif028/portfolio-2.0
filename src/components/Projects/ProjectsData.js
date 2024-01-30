@@ -6,6 +6,8 @@ import reactJs from "../../images/motorep.jpg";
 import reactJsFull from "../../images/motorepfull.jpg";
 import expressJs from "../../images/expressjs.jpg";
 import expressJsFull from "../../images/expressjsfull.jpg";
+import todoNext from "../../images/todonext.jpg";
+import todoNextFull from "../../images/todonextfull.jpg";
 
 const projectsData = [
     {
@@ -48,6 +50,17 @@ const projectsData = [
         image: expressJs,
         imageFull: expressJsFull,
     },
+    {
+        id: 5,
+        title: "Todo Next Crud Typescript",
+        year: 2023,
+        tags: ["Next.js", "Node.js", "Prisma", "Typescript", "SQLite", "Tailwind"],
+        githubLink: "https://github.com/Santif028/Todo-Typescript",
+        /* deployLink: "No Disponible/Not Available", */
+        image: todoNext,
+        imageFull: todoNextFull,
+    },
+
 ];
 
 export default projectsData;
