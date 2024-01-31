@@ -13,9 +13,10 @@ function App() {
   return (
     <HelmetProvider>
       <Helmet>
+        <title>Portfolio de Santiago Ferreira, Desarrollador y Programador Web.</title>
         <meta
           name="description"
-          content="Mi Portfolio personal, echo en React.js con Create-React-App"
+          content="Portfolio de Santiago Ferreira con sus proyectos echo en React.js con vite"
         />
         <meta name="keywords" content="React, Portfolio, web development, CSS, React Hooks" />
       </Helmet>

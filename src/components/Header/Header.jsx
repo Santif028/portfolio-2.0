@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next';
 import "./Header.styles.css"
-import { Helmet } from "react-helmet-async";
 import { Link } from 'react-scroll';
 
 const HeaderComponent = () => {
@@ -8,9 +7,6 @@ const HeaderComponent = () => {
 
     return (
         <>
-            <Helmet>
-                <title>Santiago Ferreira - Inicio</title>
-            </Helmet>
             <section className="headerMain h-auto md:h-screen">
                 <h1 className="headerH1  text-4xl sm:text-5xl md:text-6xl  lg:text-7xl  ">
                     {t('greeting')}&nbsp;

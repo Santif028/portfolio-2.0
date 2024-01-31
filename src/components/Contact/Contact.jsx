@@ -1,7 +1,6 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Helmet } from 'react-helmet-async';
 /* import { toast } from 'react-toastify'; */
 import emailjs from '@emailjs/browser'
 import 'react-toastify/dist/ReactToastify.css';
@@ -62,9 +61,6 @@ const ContactComponent = () => {
 
     return (
         <>
-            <Helmet>
-                <title>Santiago Ferreira - Contacto</title>
-            </Helmet>
             <section className='contactMain h-auto md:h-screen'>
                 <h1 className='title'>{t('contact')}</h1>
                 <form onSubmit={handleSubmit} className={formStyle}>

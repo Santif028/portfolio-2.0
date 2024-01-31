@@ -36,7 +36,7 @@ const ProjectsDesktop = () => {
                 }
             </section >
             {selectedProject && (
-                <div className="modal">
+                <div className="modal ">
                     <div className="modalContent">
                         <img
                             src={selectedProject.imageFull}

@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import image from "../../images/santiago.jpg";
 import pdf from "../../pdfs/santiago-ferreira-cv.pdf";
 import "./About.styles.css"
-import { Helmet } from 'react-helmet-async';
 import htmlIcon from "../../svgs/html5.svg";
 import cssIcon from "../../svgs/css3.svg";
 import jsIcon from "../../svgs/javascript.svg";
@@ -21,9 +20,6 @@ const AboutComponent = () => {
 
     return (
         <>
-            <Helmet>
-                <title>Santiago Ferreira - Acerca de Mí</title>
-            </Helmet>
             <section className='aboutMain h-auto lg:h-screen'>
                 <section className='content max-w-sm md:max-w-lg'>
                     <h1 className='aboutH1 text-xl sm:text-2xl md:text-3xl lg:text-4xl'>{t('about')}</h1>
