@@ -1,12 +1,8 @@
 .aboutMain {
-    background: #011126;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
     flex-wrap: wrap;
-    padding: 20px;
-    border-bottom: 1px solid #04C4D9;
 }
 
 .content {
@@ -128,8 +124,6 @@
 .darkIcon:hover {
     transform: translateZ(20px);
 }
-
-
 
 @keyframes scroll {
     0% {

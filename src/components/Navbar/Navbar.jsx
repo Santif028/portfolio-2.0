@@ -1,17 +1,14 @@
 
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
+import { Link } from 'react-scroll';
 import usa from "../../images/estados-unidos.png";
 import arg from "../../images/argentina.png";
 import "./Navbar.styles.css"
-import DropdownMenu from "./DropdownMenu";
-import NormalMenu from "./NormalMenu";
-import useMobileLayout from '../../hooks/useMobileLayout';
 
 const NavbarComponent = () => {
     const { i18n } = useTranslation();
     const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
-    const { isMobile } = useMobileLayout();
 
     const toggleLanguage = () => {
         const newLanguage = currentLanguage === 'es' ? 'en' : 'es';
@@ -27,15 +24,38 @@ const NavbarComponent = () => {
         }
     };
 
-    return (
-        <nav>
+    const { t } = useTranslation();
 
-            {isMobile ? (
-                <DropdownMenu toggleLanguage={toggleLanguage} renderFlagIcon={renderFlagIcon}  />
-            ) : (
-                <NormalMenu toggleLanguage={toggleLanguage} renderFlagIcon={renderFlagIcon} />
-            )}
-        </nav>
+    
+    return (
+
+        <div className="navbar">
+            <ul className="navList rounded-full">
+                <li className="navItem">
+                    <Link to="header" className="navLink" smooth={true} duration={600}>
+                        {t('home')}
+                    </Link>
+                </li>
+                <li className="navItem">
+                    <Link to="projects" className="navLink" smooth={true} duration={600}>
+                        {t('projects')}
+                    </Link>
+                </li>
+                <li className="navItem">
+                    <Link to="about" className="navLink" smooth={true} duration={600}>
+                        {t('about')}
+                    </Link>
+                </li>
+                <li className="navItem">
+                    <Link to="contact" className="navLink" smooth={true} duration={600}>
+                        {t('contact')}
+                    </Link>
+                </li>
+                <button className="lngButton" onClick={toggleLanguage}>
+                    {renderFlagIcon()}
+                </button>
+            </ul>
+        </div>
     );
 };
 

@@ -20,12 +20,12 @@ const AboutComponent = () => {
 
     return (
         <>
-            <section className='aboutMain h-auto lg:h-screen'>
+            <section className='aboutMain gap-20 h-auto lg:h-screen'>
                 <section className='content max-w-sm md:max-w-lg'>
                     <h1 className='aboutH1 text-xl sm:text-2xl md:text-3xl lg:text-4xl'>{t('about')}</h1>
                     <p className='p'>{t('aboutDescription')}</p>
-                    <a href={pdf} target="_blank" rel="noreferrer" className='a'>
-                        {t('downloadCV')}
+                    <a href={pdf} target="_blank" rel="noreferrer" className='a flex items-center gap-x-1 '>
+                        {t('downloadCV')} <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-download" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /><path d="M7 11l5 5l5 -5" /><path d="M12 4l0 12" /></svg>
                     </a>
                     <h2 className='subtitle'>{t('skillsDescription')}:</h2>
                     <section className='slider max-w-sm md:max-w-lg'>
@@ -144,8 +144,10 @@ const AboutComponent = () => {
                         </div>
                     </section>
                 </section>
-                <aside className='imageSection'>
-                    <img src={image} alt="Mi Foto" className='image max-w-sm  md:w-96' />
+                <aside className="w-full md:w-1/3">
+                    <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+                        <img alt='Imagen de Santiago Ferreira' className="object-cover object-top w-full transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
+                    </div>
                 </aside>
             </section>
         </>

@@ -54,7 +54,7 @@ const projectsData = [
         id: 5,
         title: "Todo Next Crud Typescript",
         year: 2023,
-        tags: ["Next.js", "Node.js", "Prisma", "Typescript", "SQLite", "Tailwind"],
+        tags: ["Next.js", "Prisma", "Typescript", "SQLite", "Tailwind"],
         githubLink: "https://github.com/Santif028/Todo-Typescript",
         /* deployLink: "No Disponible/Not Available", */
         image: todoNext,

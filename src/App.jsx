@@ -22,25 +22,33 @@ function App() {
       </Helmet>
       <NavbarComponent />
       <SocialIconsComponent />
-      <main>
-        <div id="header">
+      <div className="fixed left-0 top-0 -z-10 h-full w-full mx-auto">
+        <div className="relative h-full w-full bg-[#011126]">
+          <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]">
+          </div>
+        </div>
+      </div>
+
+      <main className='flex flex-col items-center space-y-24 px-4'>
+        <div id="header" className='w-full mx-auto container lg:max-w-4xl md:max-w-2xl'>
           <HeaderComponent />
         </div>
-        <div id="about">
-          <AboutComponent />
-        </div>
-        <div id="projects">
+        <div id="projects" className='w-full mx-auto container lg:max-w-4xl md:max-w-2xl'>
           <ProjectsComponent />
         </div>
-        <div id="contact">
+        <div id="about" className='w-full mx-auto container lg:max-w-4xl md:max-w-2xl'>
+          <AboutComponent />
+        </div>
+        <div id="contact" className='w-full mx-auto container lg:max-w-4xl md:max-w-2xl'>
           <ContactComponent />
         </div>
       </main>
-      <footer style={{ backgroundColor: 'black' }}>
+      <footer>
         <p style={{ textAlign: 'center', padding: 0, fontStyle: 'italic' }}>&copy; Santiago Ferreira {new Date().getFullYear()}</p>
       </footer>
       <ToastContainer />
-    </HelmetProvider>
+
+    </HelmetProvider >
   );
 }
 
