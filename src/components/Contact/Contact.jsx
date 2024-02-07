@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 /* import { toast } from 'react-toastify'; */
 import emailjs from '@emailjs/browser'
 import 'react-toastify/dist/ReactToastify.css';
-import "./Contact.styles.css"
+import './Contact.styles.css'
 
 const ContactComponent = () => {
     const { t } = useTranslation();

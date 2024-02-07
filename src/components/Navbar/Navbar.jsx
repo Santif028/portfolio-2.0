@@ -2,9 +2,9 @@
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import { Link } from 'react-scroll';
-import usa from "../../images/estados-unidos.png";
-import arg from "../../images/argentina.png";
-import "./Navbar.styles.css"
+import usa from '../../images/estados-unidos.png';
+import arg from '../../images/argentina.png';
+import './Navbar.styles.css'
 
 const NavbarComponent = () => {
     const { i18n } = useTranslation();

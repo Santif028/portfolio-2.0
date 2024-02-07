@@ -17,11 +17,12 @@ i18n.init({
         home: 'INICIO',
         about: 'ACERCA DE MÍ',
         projects: 'PROYECTOS',
-        skills: 'APTITUDES',
         contact: 'CONTACTO',
-        skillsDescription: 'Tecnologías con las que trabajo',
-        aboutDescription:
-          'Mi nombre es Santiago Uriel Ferreira y soy de Argentina. Soy desarrollador web Full-Stack, me apasionan tanto la música como la programación y estoy siempre expectante sobre lo que puede venir, las nuevas tecnologías que puedo aprender y cómo puedo mejorar mis códigos.',
+        aboutDescription: {
+          first: 'Me llamo Santiago y soy de Argentina. Estudie electromecánica durante la secundaria y, una vez terminada, inicie mi carrera en IT. Disfruto de solucionar hasta el más simple de los errores.',
+          second: 'Durante la carrera de Desarrollo, ayude a mis compañeros en la etapa de javascript. Me encanta aprender nuevas tecnologias y compartirlas.',
+          third: 'Otra de mis pasiones son la música y los videojuegos. Actualmente proyecto mi camino para poder mezclar los 3 mundos: programación, música y videojuegos.'
+        },
         downloadCV: 'Descargar CV',
         selectProject: 'Seleccione un Proyecto para visualizar los Detalles',
         year: 'Año',
@@ -55,22 +56,24 @@ i18n.init({
         home: 'HOME',
         about: 'ABOUT ME',
         projects: 'PROJECTS',
-        skills: 'SKILLS',
         contact: 'CONTACT',
-        skillsDescription: 'Technologies I work with',
         aboutDescription:
-          'My name is Santiago Uriel Ferreira and I am from Argentina. I am a Full-Stack web developer, passionate about both music and programming, and always eager to learn new technologies and improve my code.',
+        {
+          first: "My name is Santiago and I'm from Argentina. I studied electromechanics during high school and, once finished, I started my career in IT. I enjoy solving even the simplest of errors.",
+          second: "During my Development degree, I assisted my peers in the JavaScript stage. I love learning new technologies and sharing them.",
+          third: "Another of my passions are music and video games. Currently, I am mapping out my path to blend all three worlds: programming, music, and video games.",
+        },
         downloadCV: 'Download CV',
         selectProject: 'Select a Project to View Details',
         year: 'Year',
         tags: 'Tags',
         deploy: 'View Project',
         code: 'Source Code',
-        "projectDescriptions": {
-          "Nocaut": "First final project I completed for the Coderhouse Full-Stack development course in late June 2022. It is a website with 5 HTML pages, a contact form, where I used SASS to compile my CSS and Bootstrap to achieve the navbar. Also considered my first project.",
-          "Space Invaders based game": "Second final project I completed for the Coderhouse Full-Stack development course in late September 2022. This project is my interpretation of Space Invaders made in pure Javascript, where I use DOM manipulation, classes, logical operators, FOR loops, and also particlesJS to achieve the background.",
-          "React.js Ecommerce": "Third final project I completed for the Coderhouse Full-Stack development course in late November 2022. Frontend designed in React.js for an ecommerce, with a database hosted on Firebase, I used Sweet Alert 2 and Material UI to achieve the final result.",
-          "Express.js Ecommerce Backend": "Last final project I completed for the Coderhouse Full-Stack development course in August 2023. Rest API made for an ECommerce with Express.js, where I use Passport, Mongoose, Handlebars for server-side rendering, Bcrypt, Faker, Stripe for payment gateway, and Swagger to document my API.",
+        'projectDescriptions': {
+          'Nocaut': 'First final project I completed for the Coderhouse Full-Stack development course in late June 2022. It is a website with 5 HTML pages, a contact form, where I used SASS to compile my CSS and Bootstrap to achieve the navbar. Also considered my first project.',
+          'Space Invaders based game': 'Second final project I completed for the Coderhouse Full-Stack development course in late September 2022. This project is my interpretation of Space Invaders made in pure Javascript, where I use DOM manipulation, classes, logical operators, FOR loops, and also particlesJS to achieve the background.',
+          'React.js Ecommerce': 'Third final project I completed for the Coderhouse Full-Stack development course in late November 2022. Frontend designed in React.js for an ecommerce, with a database hosted on Firebase, I used Sweet Alert 2 and Material UI to achieve the final result.',
+          'Express.js Ecommerce Backend': 'Last final project I completed for the Coderhouse Full-Stack development course in August 2023. Rest API made for an ECommerce with Express.js, where I use Passport, Mongoose, Handlebars for server-side rendering, Bcrypt, Faker, Stripe for payment gateway, and Swagger to document my API.',
           'Todo Next Crud Typescript': 'Independent project carried out in October 2023, where I used Next.js 13 and Typescript. I opted for Tailwind to design the project styles and Prisma ORM with SQLite to handle the database, where I have my CRUD logic.'
         },
         formName: 'Name',

@@ -2,13 +2,13 @@ import IconButton from '@mui/material/IconButton';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import "./SocialIcons.styles.css"
+import './SocialIcons.styles.css'
 
 const SocialIconsComponent = () => {
 
     return (
-        <ul className='socialDiv'>
-            <li className='iconButton'>
+        <ul className="socialDiv">
+            <li className="iconButton">
                 <IconButton
                     href="https://www.instagram.com/santi_edl/"
                     target="_blank"
@@ -17,7 +17,7 @@ const SocialIconsComponent = () => {
                     <InstagramIcon />
                 </IconButton>
             </li>
-            <li className='iconButton'>
+            <li className="iconButton">
                 <IconButton
                     href="https://www.linkedin.com/in/santiago-ferreira-679640244/"
                     target="_blank"
@@ -26,7 +26,7 @@ const SocialIconsComponent = () => {
                     <LinkedInIcon />
                 </IconButton>
             </li>
-            <li className='iconButton'>
+            <li className="iconButton">
                 <IconButton
                     href="https://github.com/Santif028"
                     target="_blank"

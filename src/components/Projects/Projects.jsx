@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import projectsData from "./ProjectsData.js";
-import "./Projects.styles.css"
+import projectsData from './ProjectsData.js';
+import './Projects.styles.css'
 
 const ProjectsComponent = () => {
     const { t } = useTranslation();
