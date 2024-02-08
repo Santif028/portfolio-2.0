@@ -42,16 +42,6 @@ const projectsData = [
     },
     {
         id: 4,
-        title: 'Express.js Ecommerce Backend',
-        year: 2023,
-        tags: ['Express.js', 'Node.js', 'MongoDB'],
-        githubLink: 'https://github.com/Santif028/32260-Final-Ferreira/tree/main',
-        deployLink: 'https://32260-final-ferreira-production.up.railway.app/auth/login',
-        image: expressJs,
-        imageFull: expressJsFull,
-    },
-    {
-        id: 5,
         title: 'Todo Next Crud Typescript',
         year: 2023,
         tags: ['Next.js', 'Prisma', 'Typescript', 'SQLite', 'Tailwind'],
