@@ -4,8 +4,6 @@ import spaceInvaders from '../../images/spaceinvaders.jpg';
 import spaceInvadersFull from '../../images/spaceinvadersfull.jpg';
 import reactJs from '../../images/motorep.jpg';
 import reactJsFull from '../../images/motorepfull.jpg';
-import expressJs from '../../images/expressjs.jpg';
-import expressJsFull from '../../images/expressjsfull.jpg';
 import todoNext from '../../images/todonext.jpg';
 import todoNextFull from '../../images/todonextfull.jpg';
 
