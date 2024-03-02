@@ -30,6 +30,7 @@ i18n.init({
         deploy: 'Ver Proyecto',
         code: 'Codigo Fuente',
         projectDescriptions: {
+          'Setsu URL Shortener': 'Proyecto personal basado en slug de pheralB, solo que utilizando Supabase para manejar la base de datos y OAuth de Github para la autenticación. Puedes crear, editar o eliminar los links que quieras cuando quieras.',
           'Nocaut': 'Primer proyecto final que terminé para el curso de desarrollo Full-Stack de Coderhouse a finales de junio 2022. Es una página web con 5 htmls, un formulario de contacto, donde use SASS para compilar mi CSS y Bootstrap para lograr el navbar. También considerado mi primer proyecto.',
           'Space Invaders based game': 'Segundo proyecto final que terminé para el curso de desarrollo Full-Stack de Coderhouse a finales de septiembre 2022. Este proyecto es una interpretación mía de Space Invaders echa en Javascript puro, donde utilizo manipulación de DOM, clases, operadores lógicos, ciclos for, y también particlesJS para lograr el fondo.',
           'React.js Ecommerce': 'Tercer proyecto final que terminé para el curso de desarrollo Full-Stack de Coderhouse a finales de noviembre 2022. Frontend diseñado en React.js para un ecommerce, con base de datos montada en Firebase, utilice Sweet Alert 2 y Material UI para llegar al resultado final.',
@@ -70,6 +71,7 @@ i18n.init({
         deploy: 'View Project',
         code: 'Source Code',
         'projectDescriptions': {
+          'Setsu URL Shortener': `Personal project based on pheralB's slug, but using Supabase to handle the database and GitHub OAuth for authentication. You can create, edit, or delete links as you wish, anytime.`,
           'Nocaut': 'First final project I completed for the Coderhouse Full-Stack development course in late June 2022. It is a website with 5 HTML pages, a contact form, where I used SASS to compile my CSS and Bootstrap to achieve the navbar. Also considered my first project.',
           'Space Invaders based game': 'Second final project I completed for the Coderhouse Full-Stack development course in late September 2022. This project is my interpretation of Space Invaders made in pure Javascript, where I use DOM manipulation, classes, logical operators, FOR loops, and also particlesJS to achieve the background.',
           'React.js Ecommerce': 'Third final project I completed for the Coderhouse Full-Stack development course in late November 2022. Frontend designed in React.js for an ecommerce, with a database hosted on Firebase, I used Sweet Alert 2 and Material UI to achieve the final result.',
